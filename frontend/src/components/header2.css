@@ -1,0 +1,36 @@
+
+/*making images smaller */
+.customimages{
+    height: 50px;
+    object-fit:scale-down;
+    background-color: transparent;
+    mix-blend-mode: multiply;
+    padding: 5px;
+    background-color: aliceblue;
+    transition: ease;
+}
+
+/*Hiding scroll bar */
+.hiddenscroll::-webkit-scrollbar {
+    display: none;
+}
+.customheaderfont{
+
+    color: black;
+}
+.customanimation{
+    height: 50px;
+    width: 100%;
+    cursor: progress;
+}
+/*hover animations for bigger screen*/
+@media screen and (min-width:700px) {
+    .customimages:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .customfont{
+        font-size: small;
+    }
+}

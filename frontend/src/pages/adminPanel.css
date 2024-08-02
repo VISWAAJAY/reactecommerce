@@ -1,0 +1,16 @@
+.cardheight{
+    height: 100vh;
+}
+
+.adminpanel{
+    min-height: 55vh;
+}
+
+.adminpaneloutlet{
+    width: 100%;
+}
+
+.hoverchanges:hover{
+    background-color: rgb(156, 179, 202);
+    text-decoration: underline;
+}

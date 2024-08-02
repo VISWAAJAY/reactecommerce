@@ -1,0 +1,7 @@
+
+/*ADDING WIDTH FOR SIGNIN CARD*/
+@media screen and (min-width:700px) {
+    .logincard{
+      width: 50% !important;
+    }
+}

@@ -1,0 +1,134 @@
+.evenbigcart{
+    padding: 10px;
+    margin-top: 10px;
+    width: 90vw;
+    box-sizing: border-box;
+    box-shadow: inset;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 4px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.width100{
+    width: 80vw;
+}
+.quantiprice{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.quantiprice div{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width:768px) {
+    .customcart{
+        display: flex !important;
+        flex-direction: row !important;
+        row-gap: 50px !important;
+        height: max-content;
+        padding-right: 15px;
+        width: 50vw;
+        justify-content: space-evenly;
+    }
+
+    .custombody{
+        max-width: max-content;
+    }
+
+
+    .customcart img{
+        max-width:200px !important;
+        max-height: 250px !important;
+        object-fit: scale-down;
+    }
+
+
+}
+
+.biggercart{
+    width: 100vw !important;
+    display: grid;
+    grid-template-columns: 75% 20%;
+    height: auto;
+    column-gap: 30px;
+}
+
+.summary2ndpart p{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.secondcol{
+    height: max-content;
+}
+
+
+
+.hrs{
+    background-color: black;
+    height: 1px;
+}
+
+
+/**css for small devices **/
+
+@media screen and (max-width:768px) {
+    .biggercart{
+        display: flex;
+        flex-direction: column;
+    }
+    .customcart{
+        width: 80vw !important;
+        display: flex;
+        row-gap: 2px !important;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .customcart img{
+        max-width:200px !important;
+        max-height: 250px !important;
+        object-fit: scale-down;
+    }
+    .checkout{
+        width: 80vw !important;
+        border-radius: 5%;
+    }
+    .custombody{
+        border-width: 10px;
+        padding: 10px;
+    }
+    .buttons{
+        width: 20px;
+        height: 20px;
+        font-size: small;
+        text-align: center;
+        display: flex;
+    }
+
+    .quantity{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+

@@ -1,0 +1,19 @@
+.customdetailscontainer{
+    max-height: 60vh;
+    display: flex !important;
+    height: 100%;
+}
+.customcardimage{
+    mix-blend-mode: multiply;
+}
+
+@media screen and (max-width:699px) {
+    .customdetailscontainer{
+            display: flex;
+            flex-direction: column;
+    }
+    .customdetailscard{
+        max-height: fit-content;
+        min-width: 100%;
+    }
+}

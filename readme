@@ -1,0 +1,73 @@
+In frontend:
+
+ADMIN CREDENTIALS:test@gmail.com , password:test
+
+
+src>Components:
+1.Shipping pages : 1.orderSummary page and its css , 2. Payment page and its css , 3.Shipping page and its css
+2.carousel page: which takes images from carousel images folder
+3.Featured products
+4.Header
+5.Footer
+6.Paypal js buttons
+7.Usermodal which is used to change userrole
+
+Context : for userContext which is null as default
+
+Helpers:To add the product to add to cart as it was not agreeing to go product page first
+
+routes:
+Routing of application
+
+Store:
+Redux store to store user who is currently logged in
+
+Pages:
+1.AdminPanel page
+2.ALL orders page
+3.all users page
+4.all products page(productsTable)
+5.create product page
+6.login page
+7.register page
+8.product details page(no rating or comments)
+9.Updating Product
+10.Uploading or creating a new product
+11.User details page
+12.order history for the user
+'13. editing user details
+14.HomePage
+15.cartPage
+
+Products:Contains all the categories for creating products
+
+used react-icons ,react-router-dom, react-toastify and react-redux for frontend storing and giving proper messages to user
+
+BACKEND:
+1.main>dbconnection:
+Contains config (secret_key) for hashing passwords and  db for connecting to mongoDB cloud
+2.main>middleware: generates authentication token when user logs in
+3.main>models:contains Schemas for user , product , adding to cart and OrderHistory
+4.main>index is the main file for express
+5.main>multerUpload : is used to upload and download Imagefiles using  multer
+
+Routes:
+addtocartroute:Contains add to cart code
+allroutes: contains all user related routes signin logout updating getting related to user
+categoryPage: code for category page which fetches products based o category
+forcartPage:to send which products are in the cart and populates it with relevant product
+forsummaryoforder:for summary page in frontend gets the latest order by the user
+getOneProductDetails:Finds product and displays relevant information regarding product and sends it to frontend
+getOrderhistory: gets all orders for all orders tab in admin panel and populates it with relevant user information and product information
+getOrdersOfuser:same as getOrderhistory but for specific user who is currently logged in
+orderhistory:adds a document to the history model
+productUploadroute:contains all the routes about product
+removefromcart:removes specific product from cart (refresh page after cliking delete icon)
+searchroute:For searching the product model
+Updateproduct:To update an existing product
+
+
+used cors , nodemon ,  node , mongoDB and express for BACKEND 
+
+
+

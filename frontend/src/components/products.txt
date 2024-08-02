@@ -1,0 +1,11 @@
+products
+1.laptops
+2.mobiles
+3.cameras
+4.wireless eaphones
+5.wired earphones
+6.speakers
+7.shoes
+8.watches
+9.Tvs
+10.ac

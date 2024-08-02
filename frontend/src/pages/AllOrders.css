@@ -1,0 +1,5 @@
+.restrictwidth{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 300px;
+}

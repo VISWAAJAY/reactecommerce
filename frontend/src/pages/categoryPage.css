@@ -1,0 +1,14 @@
+/*CARD STYLES FOR PRODUCTS*/
+.customcardCategory{
+    width: 18rem;
+}
+
+.customcategorycard{
+    height: 15rem;
+    object-fit:scale-down;
+    background-color: transparent;
+    mix-blend-mode: multiply;
+    padding: 5px;
+    background-color: aliceblue;
+    transition: ease;
+}

@@ -1,0 +1,59 @@
+/*ADJUSTING SIZES OF BUTTONS AND SEARCH BOX ALIGNING HOVER ANIMATIONS*/
+
+@media screen and(min-width:750px) {
+    .loginbtn{
+        height: 35px;
+        width: 60px;
+        background-color: rgba(238, 241, 243, 0.951);
+        color: rgb(212, 158, 244);
+        opacity: 75;
+        border-radius: 15px;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-weight: 400;
+        font-size: large;
+    }
+    .inputsearch{
+        min-width: 50px;
+        justify-self: center;
+        max-width: 200px;
+    }
+
+    .centering{
+        justify-content: center;
+        align-content: center;
+    }
+    .loginbtn:hover{
+        background-color: rgb(157, 140, 250);
+        opacity: 100;
+        color: rgba(238, 241, 243, 0.951);
+    }
+    .forsmallsearch{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+    }
+}
+
+
+
+/*MAKING THE LAYOUT OF HEADER WHEN SCREEN SIZE IS SMALL*/
+@media screen and (max-width:750px) {
+    .logos{
+        margin-left: 1rem;
+    }
+
+    .forsmall{
+        margin-top: 1.5rem;
+        justify-content: center;
+        align-content: center;
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+}
+/* FONT FOR NAME*/
+.cursivefont{
+    font-family: 'Pacifico', cursive;
+}

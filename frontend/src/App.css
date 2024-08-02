@@ -1,0 +1,17 @@
+@media screen and (min-width:700px) {
+    .imagehover:hover{
+        transform: scale(1.1);
+        
+    }
+    .imagehover{
+        transition: ease;
+    }
+    .customcardCategory{
+        width: 230px !important;
+    }
+}
+
+/*GIVING BODY HEIGHT TO NOT LET FOOTER COME TO HEADER*/
+.custombodyheight{
+    min-height: 60vh;
+}

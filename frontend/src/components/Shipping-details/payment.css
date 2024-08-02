@@ -1,0 +1,14 @@
+/*ADJUSTING TO SCREEN SIZES RIGHT TAB WILL BE DISPLAYED AT BOTTOM*/
+
+@media screen and (max-width:768px) {
+    .customflex{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 80vw !important;
+    }
+    .paymentw{
+        width: 80vw !important;
+    }
+}
+
+
